@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+:root {
+  --background-main: rgb(247, 246, 242);
+  --background-all: rgb(206, 195, 155);
+  --background-discount: rgb(146, 144, 137);
+  --color-text-info: rgb(243, 242, 239);
+}
+
+.main {
+  width: 768px;
+  margin: auto;
+  padding: 15px 0px 0px 0px;
+  background-color: var(--background-main);
+}
+/*------- hlavička -------*/
+header {
+  padding-top: 10px;
+  position: relative;
+  text-align: center;
+  background-color: var(--background-all);
+  padding-bottom: 50px;
+}
+
+.discount {
+  position: absolute;
+  right: 0px;
+  top: 25px;
+  padding: 0px 5px 0px 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: var(--background-discount);
+}
+
+.img-honda img {
+  width: 320px;
+  border-radius: 10px;
+}
+
+.price {
+  position: absolute;
+  left: 309px;
+}
+
+/*-------- parametry -------*/
+
+.main-parameters {
+  margin: 15px 0px 15px 4px;
+  width: 760px;
+  position: relative;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0px 0px 5px 3px var(--background-all);
+}
+
+.gas {
+  padding: 5px 10px 0px 0px;
+  position: absolute;
+  left: 73.2px;
+  top: 10px;
+  width: 100px;
+  background-color: var(--background-all);
+  border-radius: 3px;
+  font-size: 90%;
+}
+
+.km {
+  padding: 5px 0px 0px 0px;
+  position: absolute;
+  left: 246.4px;
+  top: 10px;
+  width: 100px;
+  background-color: var(--background-all);
+  border-radius: 3px;
+  font-size: 90%;
+}
+
+.engine {
+  padding: 5px 10px 0px 0px;
+  position: absolute;
+  left: 419.6px;
+  top: 10px;
+  width: 100px;
+  background-color: var(--background-all);
+  border-radius: 3px;
+  font-size: 90%;
+}
+
+.manual_razeni {
+  padding: 5px 10px 0px 0px;
+  position: absolute;
+  left: 592.8px;
+  top: 10px;
+  width: 105px;
+  background-color: var(--background-all);
+  border-radius: 3px;
+  font-size: 90%;
+}
+
+/*---------Popis------------*/
+.description {
+  margin: auto;
+  padding: 10px;
+  height: 200px;
+  position: relative;
+  text-align: center;
+}
+
+p {
+  padding: 5px;
+  width: 150px;
+  background-color: var(--background-all);
+  font-size: 80%;
+}
+
+.exterier {
+  position: absolute;
+  top: 10px;
+  left: 79px;
+  border-radius: 3px;
+}
+
+.av {
+  position: absolute;
+  top: 10px;
+  left: 308px;
+  border-radius: 3px;
+}
+
+.cooler {
+  position: absolute;
+  top: 10px;
+  left: 537px;
+  border-radius: 3px;
+}
+
+a {
+  display: block;
+  position: absolute;
+  left: 347.13px;
+  bottom: 10px;
+  background-color: var(--background-all);
+  border-radius: 3px;
+  padding: 5px 10px 5px 10px;
+  color: black;
+  font-size: 80%;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-text-info);
+  cursor: pointer;
+}
